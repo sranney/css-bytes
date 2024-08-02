@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: "2024-08-01"
+Resources:
+  MyGitRepository:
+    Type: AWS::CodeCommit::Repository
+    Properties:
+      RepositoryName: CSSSnippets
+      RepositoryDescription: "CSSSnippets"
